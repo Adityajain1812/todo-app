@@ -1,0 +1,20 @@
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "adityajain1812", email = "142815869+Adityajain1812@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "sqlalchemy>=2.0.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-jose>=3.3.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
